@@ -1,0 +1,39 @@
+
+lucide.createIcons();
+
+
+const cards = document.querySelectorAll(
+    ".tech-card, .project-card, .about-card, .process-grid div"
+);
+
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+
+        if (entry.isIntersecting) {
+
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+
+            observer.unobserve(entry.target);
+
+        }
+
+    });
+
+}, {
+    threshold: 0.1
+});
+
+
+cards.forEach((card) => {
+
+    card.style.opacity = "0";
+    card.style.transform = "translateY(20px)";
+    card.style.transition = "opacity .7s ease, transform .7s ease";
+
+    observer.observe(card);
+
+});
+
