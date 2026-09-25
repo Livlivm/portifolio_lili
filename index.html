@@ -1,750 +1,796 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Livia Morais | Desenvolvedora</title>
+```
+<title>Livia Morais | Desenvolvedora</title>
 
-    <meta
-        name="description"
-        content="Portfólio de Livia Morais — Desenvolvedora Web e Mobile em formação."
-    >
+<meta
+    name="description"
+    content="Portfólio de Livia Morais — Desenvolvedora Web e Mobile em formação."
+>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+```
+
 </head>
 
 <body>
 
+```
+<header class="navbar">
 
+    <a href="#inicio" class="logo">
+        Livia<span>Morais</span>
+    </a>
 
-    <header class="navbar">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#processo">Processo</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-        <a href="#inicio" class="logo">
-            Livia<span>Morais
-            </span>
-        </a>
+</header>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#tecnologias">Tecnologias</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#processo">Processo</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
 
-    </header>
+<main>
 
+    <!-- HERO -->
 
-    <main>
+    <section class="hero" id="inicio">
 
-        <!-- ========================================
-             HERO
-        ========================================= -->
+        <div class="hero-content">
 
-        <section class="hero" id="inicio">
+            <div>
 
-            <div class="hero-content">
+                <span class="hero-tag">
+                    Desenvolvedora Web e Mobile em formação
+                </span>
 
-                <div>
+                <h1>
+                    Olá, eu sou<br>
+                    <span>Livia Morais.</span>
+                </h1>
 
-                    <span class="hero-tag">
-                        Desenvolvedora Web e Mobile em formação
-                    </span>
-
-                    <h1>
-                        Olá, eu sou<br>
-                        <span>Livia Morais.</span>
-                    </h1>
-
-                    <h2 class="hero-subtitle">
-                        Transformando ideias em projetos digitais.
-                    </h2>
-
-                    <p class="hero-description">
-                        Sou estudante do SESI/SENAI e apaixonada por tecnologia,
-                        desenvolvimento web e mobile. Gosto de transformar ideias
-                        em experiências digitais funcionais, organizadas e bonitas.
-                    </p>
-
-                    <div class="hero-buttons">
-
-                        <a href="#projetos">
-                            Ver meus projetos
-                            <i data-lucide="arrow-down"></i>
-                        </a>
-
-                        <a href="#contato">
-                            Entre em contato
-                            <i data-lucide="mail"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- CARD DE CÓDIGO -->
-
-                <div class="hero-card">
-
-                    <div class="code-header">
-                        <span class="code-dot"></span>
-                        <span class="code-dot"></span>
-                        <span class="code-dot"></span>
-                    </div>
-
-                    <pre class="code"><code>
-<span class="pink">const</span> desenvolvedora = {
-    nome: <span class="green">"Livia Morais"</span>,
-    formação: <span class="green">"SESI/SENAI"</span>,
-    foco: [
-        <span class="green">"Front-end"</span>,
-        <span class="green">"Back-end"</span>,
-        <span class="green">"Mobile"</span>
-    ],
-    tecnologias: [
-        <span class="green">"HTML"</span>,
-        <span class="green">"CSS"</span>,
-        <span class="green">"JavaScript"</span>,
-        <span class="green">"Node.js"</span>,
-        <span class="green">"Flutter"</span>
-    ]
-};
-                    </code></pre>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             SOBRE
-        ========================================= -->
-
-        <section id="sobre">
-
-            <div class="section-title">
-
-                <h2>Sobre mim</h2>
-
-                <p>
-                    Um pouco sobre minha formação, interesses e objetivos
-                    dentro da tecnologia.
-                </p>
-
-            </div>
-
-
-            <div class="about-grid">
-
-                <div class="about-card">
-
-                    <h3>
-                        Quem sou
-                    </h3>
-
-                    <p>
-                        Sou estudante do SESI/SENAI, atualmente no ensino médio,
-                        e venho desenvolvendo meus conhecimentos na área de
-                        tecnologia. Tenho interesse tanto pelo desenvolvimento
-                        de interfaces quanto pela parte de back-end e banco
-                        de dados.
-                    </p>
-
-                    <br>
-
-                    <p>
-                        Gosto de aprender criando projetos práticos e buscando
-                        sempre melhorar a organização, funcionalidade e aparência
-                        das aplicações que desenvolvo.
-                    </p>
-
-                </div>
-
-
-                <div class="about-card">
-
-                    <h3>
-                        Informações
-                    </h3>
-
-                    <div class="info-list">
-
-                        <div class="info-item">
-
-                            <div class="info-icon">
-                                <i data-lucide="graduation-cap"></i>
-                            </div>
-
-                            <div>
-                                <strong>Formação</strong>
-                                <span>SESI / SENAI</span>
-                            </div>
-
-                        </div>
-
-
-                        <div class="info-item">
-
-                            <div class="info-icon">
-                                <i data-lucide="code-2"></i>
-                            </div>
-
-                            <div>
-                                <strong>Área</strong>
-                                <span>Desenvolvimento de Sistemas</span>
-                            </div>
-
-                        </div>
-
-
-                        <div class="info-item">
-
-                            <div class="info-icon">
-                                <i data-lucide="map-pin"></i>
-                            </div>
-
-                            <div>
-                                <strong>Localização</strong>
-                                <span>Amparo - SP</span>
-                            </div>
-
-                        </div>
-
-
-                        <div class="info-item">
-
-                            <div class="info-icon">
-                                <i data-lucide="briefcase"></i>
-                            </div>
-
-                            <div>
-                                <strong>Objetivo</strong>
-                                <span>Jovem Aprendiz</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             TECNOLOGIAS
-        ========================================= -->
-
-        <section id="tecnologias">
-
-            <div class="section-title">
-
-                <h2>Tecnologias</h2>
-
-                <p>
-                    Algumas das tecnologias e ferramentas que utilizo
-                    durante minha formação.
-                </p>
-
-            </div>
-
-
-            <div class="tech-grid">
-
-                <div class="tech-card">
-
-                    <i data-lucide="code-2"></i>
-
-                    <h3>HTML</h3>
-
-                    <p>Estrutura de páginas</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="palette"></i>
-
-                    <h3>CSS</h3>
-
-                    <p>Estilização e interfaces</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="braces"></i>
-
-                    <h3>JavaScript</h3>
-
-                    <p>Interatividade e lógica</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="server"></i>
-
-                    <h3>Node.js</h3>
-
-                    <p>Desenvolvimento back-end</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="route"></i>
-
-                    <h3>Express</h3>
-
-                    <p>APIs e servidores</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="database"></i>
-
-                    <h3>Prisma</h3>
-
-                    <p>Banco de dados</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="smartphone"></i>
-
-                    <h3>Flutter</h3>
-
-                    <p>Aplicações mobile</p>
-
-                </div>
-
-
-                <div class="tech-card">
-
-                    <i data-lucide="git-branch"></i>
-
-                    <h3>Git & GitHub</h3>
-
-                    <p>Versionamento</p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             PROJETOS
-        ========================================= -->
-
-        <section id="projetos">
-
-            <div class="section-title">
-
-                <h2>Meus projetos</h2>
-
-                <p>
-                    Projetos desenvolvidos durante minha formação
-                    em Desenvolvimento de Sistemas.
-                </p>
-
-            </div>
-
-
-            <!-- FRONT-END -->
-
-            <div class="project-category">
-
-                <h3 class="category-title">
-
-                    <span class="category-icon">
-                        <i data-lucide="layout"></i>
-                    </span>
-
-                    Front-end
-
-                </h3>
-
-
-                <div class="projects-grid">
-
-                    <article class="project-card">
-
-                        <div class="project-image">
-
-                            <div class="project-icon">
-                                <i data-lucide="music-2"></i>
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <span class="project-type">
-                                Front-end
-                            </span>
-
-                            <h3>
-                                Musicaliv
-                            </h3>
-
-                            <p>
-                                Projeto de interface web desenvolvido
-                                com foco em música e experiência do usuário.
-                            </p>
-
-
-                            <div class="tags">
-
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">JavaScript</span>
-
-                            </div>
-
-
-                            <div class="project-actions">
-
-                                <a
-                                    href="https://livlivm.github.io/Musicaliv/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="project-link"
-                                >
-                                    Ver projeto
-                                    <i data-lucide="external-link"></i>
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-
-            <!-- FULL-STACK -->
-
-            <div class="project-category">
-
-                <h3 class="category-title">
-
-                    <span class="category-icon">
-                        <i data-lucide="server"></i>
-                    </span>
-
-                    Full-stack
-
-                </h3>
-
-
-                <div class="projects-grid">
-
-                    <article class="project-card">
-
-                        <div class="project-image">
-
-                            <div class="project-icon">
-                                <i data-lucide="shopping-bag"></i>
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <span class="project-type">
-                                Full-stack
-                            </span>
-
-                            <h3>
-                                Loja Lego
-                            </h3>
-
-                            <p>
-                                Aplicação desenvolvida envolvendo
-                                front-end, back-end e integração
-                                com banco de dados.
-                            </p>
-
-
-                            <div class="tags">
-
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">Node.js</span>
-
-                            </div>
-
-
-                            <div class="project-actions">
-
-                                <a
-                                    href="https://github.com/Livlivm/lojalegoo"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="project-link"
-                                >
-                                    Ver projeto
-                                    <i data-lucide="github"></i>
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-
-            <!-- MOBILE -->
-
-            <div class="project-category">
-
-                <h3 class="category-title">
-
-                    <span class="category-icon">
-                        <i data-lucide="smartphone"></i>
-                    </span>
-
-                    Mobile
-
-                </h3>
-
-
-                <div class="projects-grid">
-
-                    <article class="project-card">
-
-                        <div class="project-image">
-
-                            <div class="project-icon">
-                                <i data-lucide="notebook-tabs"></i>
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <span class="project-type">
-                                Mobile
-                            </span>
-
-                            <h3>
-                                Bloco de Notas
-                            </h3>
-
-                            <p>
-                                Aplicativo mobile desenvolvido em Flutter,
-                                com autenticação, consumo de API e
-                                gerenciamento de anotações.
-                            </p>
-
-
-                            <div class="tags">
-
-                                <span class="tag">Flutter</span>
-                                <span class="tag">Dart</span>
-                                <span class="tag">API</span>
-
-                            </div>
-
-
-                            <div class="project-actions">
-
-                                <a
-                                    href="https://github.com/Livlivm/bloco_notas"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="project-link"
-                                >
-                                    Ver projeto
-                                    <i data-lucide="github"></i>
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             PROCESSO
-        ========================================= -->
-
-        <section id="processo">
-
-            <div class="section-title">
-
-                <h2>Como desenvolvo</h2>
-
-                <p>
-                    Um pouco do processo que sigo para transformar
-                    uma ideia em um projeto.
-                </p>
-
-            </div>
-
-
-            <div class="process-grid">
-
-                <article>
-
-                    <div class="process-number">
-                        01
-                    </div>
-
-                    <h3>
-                        Planejamento
-                    </h3>
-
-                    <p>
-                        Primeiro organizo a ideia, defino as funcionalidades
-                        necessárias e penso na estrutura do projeto.
-                    </p>
-
-                </article>
-
-
-                <article>
-
-                    <div class="process-number">
-                        02
-                    </div>
-
-                    <h3>
-                        Desenvolvimento
-                    </h3>
-
-                    <p>
-                        Depois começo a desenvolver as telas, funcionalidades,
-                        APIs e demais partes necessárias para a aplicação.
-                    </p>
-
-                </article>
-
-
-                <article>
-
-                    <div class="process-number">
-                        03
-                    </div>
-
-                    <h3>
-                        Testes e melhorias
-                    </h3>
-
-                    <p>
-                        Por fim, testo o projeto, identifico problemas e
-                        faço melhorias para deixar a aplicação mais organizada
-                        e funcional.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             CONTATO
-        ========================================= -->
-
-        <section id="contato" class="contact">
-
-            <div class="contact-box">
-
-                <h2>
-                    Vamos conversar?
+                <h2 class="hero-subtitle">
+                    Transformando ideias em projetos digitais.
                 </h2>
 
-                <p>
-                    Estou sempre aberta a aprender, desenvolver novos projetos
-                    e conhecer novas oportunidades na área de tecnologia.
+                <p class="hero-description">
+                    Sou estudante do SESI/SENAI e apaixonada por tecnologia,
+                    desenvolvimento web e mobile. Gosto de transformar ideias
+                    em experiências digitais funcionais, organizadas e bonitas.
                 </p>
 
+                <div class="hero-buttons">
 
-                <div class="contact-links">
-
-                    <a
-                        href="mailto:liviaampereira@gmail.com"
-                    >
-                        <i data-lucide="mail"></i>
-                        E-mail
+                    <a href="#projetos">
+                        Ver meus projetos
+                        <i data-lucide="arrow-down"></i>
                     </a>
 
-
-                    <a
-                        href="https://github.com/Livlivm"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i data-lucide="github"></i>
-                        GitHub
+                    <a href="#contato">
+                        Entre em contato
+                        <i data-lucide="mail"></i>
                     </a>
 
                 </div>
 
             </div>
 
-        </section>
 
-    </main>
+            <div class="hero-card">
+
+                <div class="code-header">
+                    <span class="code-dot"></span>
+                    <span class="code-dot"></span>
+                    <span class="code-dot"></span>
+                </div>
+
+                <pre class="code"><code>
+```
+
+<span class="pink">const</span> desenvolvedora = {
+nome: <span class="green">"Livia Morais"</span>,
+formação: <span class="green">"SESI/SENAI"</span>,
+foco: [ <span class="green">"Front-end"</span>, <span class="green">"Back-end"</span>, <span class="green">"Mobile"</span>
+],
+tecnologias: [ <span class="green">"HTML"</span>, <span class="green">"CSS"</span>, <span class="green">"JavaScript"</span>, <span class="green">"Node.js"</span>, <span class="green">"Flutter"</span>
+]
+}; </code></pre>
+
+```
+            </div>
+
+        </div>
+
+    </section>
 
 
-    <footer>
+    <!-- SOBRE -->
 
-        <p>
-            © 2026 Livia Morais.
-            Desenvolvido com <span>♥</span> e código.
-        </p>
+    <section id="sobre">
 
-    </footer>
+        <div class="section-title">
+
+            <h2>Sobre mim</h2>
+
+            <p>
+                Um pouco sobre minha formação, interesses e objetivos
+                dentro da tecnologia.
+            </p>
+
+        </div>
 
 
-    <!-- JAVASCRIPT -->
+        <div class="about-grid">
 
-    <script src="script.js"></script>
+            <div class="about-card">
+
+                <h3>
+                    Quem sou
+                </h3>
+
+                <p>
+                    Sou estudante do SESI/SENAI, atualmente no ensino médio,
+                    e venho desenvolvendo meus conhecimentos na área de
+                    tecnologia. Tenho interesse tanto pelo desenvolvimento
+                    de interfaces quanto pela parte de back-end e banco
+                    de dados.
+                </p>
+
+                <br>
+
+                <p>
+                    Gosto de aprender criando projetos práticos e buscando
+                    sempre melhorar a organização, funcionalidade e aparência
+                    das aplicações que desenvolvo.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <h3>
+                    Informações
+                </h3>
+
+                <div class="info-list">
+
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+
+                        <div>
+                            <strong>Formação</strong>
+                            <span>SESI / SENAI</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <i data-lucide="code-2"></i>
+                        </div>
+
+                        <div>
+                            <strong>Área</strong>
+                            <span>Desenvolvimento de Sistemas</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+
+                        <div>
+                            <strong>Localização</strong>
+                            <span>Amparo - SP</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <i data-lucide="briefcase"></i>
+                        </div>
+
+                        <div>
+                            <strong>Objetivo</strong>
+                            <span>Jovem Aprendiz</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologias">
+
+        <div class="section-title">
+
+            <h2>Tecnologias</h2>
+
+            <p>
+                Algumas das tecnologias e ferramentas que utilizo
+                durante minha formação.
+            </p>
+
+        </div>
+
+
+        <div class="tech-grid">
+
+            <div class="tech-card">
+
+                <i data-lucide="code-2"></i>
+
+                <h3>HTML</h3>
+
+                <p>Estrutura de páginas</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="palette"></i>
+
+                <h3>CSS</h3>
+
+                <p>Estilização e interfaces</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="braces"></i>
+
+                <h3>JavaScript</h3>
+
+                <p>Interatividade e lógica</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="server"></i>
+
+                <h3>Node.js</h3>
+
+                <p>Desenvolvimento back-end</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="route"></i>
+
+                <h3>Express</h3>
+
+                <p>APIs e servidores</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="database"></i>
+
+                <h3>Prisma</h3>
+
+                <p>Banco de dados</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="smartphone"></i>
+
+                <h3>Flutter</h3>
+
+                <p>Aplicações mobile</p>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i data-lucide="git-branch"></i>
+
+                <h3>Git & GitHub</h3>
+
+                <p>Versionamento</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+
+    <section id="projetos">
+
+        <div class="section-title">
+
+            <h2>Meus projetos</h2>
+
+            <p>
+                Projetos desenvolvidos durante minha formação
+                em Desenvolvimento de Sistemas.
+            </p>
+
+        </div>
+
+
+        <!-- FRONT-END -->
+
+        <div class="project-category">
+
+            <h3 class="category-title">
+
+                <span class="category-icon">
+                    <i data-lucide="layout"></i>
+                </span>
+
+                Front-end
+
+            </h3>
+
+
+            <div class="projects-grid">
+
+
+                <!-- MUSICALIV -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <div class="project-icon">
+                            <i data-lucide="music-2"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Front-end
+                        </span>
+
+                        <h3>
+                            Musicaliv
+                        </h3>
+
+                        <p>
+                            Projeto de interface web desenvolvido
+                            com foco em música e experiência do usuário.
+                        </p>
+
+
+                        <div class="tags">
+
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <a
+                                href="https://livlivm.github.io/Musicaliv/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                Ver projeto
+                                <i data-lucide="external-link"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAFETERIA -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <div class="project-icon">
+                            <i data-lucide="coffee"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Front-end
+                        </span>
+
+                        <h3>
+                            Cafeteria
+                        </h3>
+
+                        <p>
+                            Projeto de website para cafeteria,
+                            desenvolvido com foco em interface,
+                            organização visual e experiência do usuário.
+                        </p>
+
+
+                        <div class="tags">
+
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Vite</span>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <a
+                                href="https://vite-cafeteria.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                Ver projeto
+                                <i data-lucide="external-link"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+
+        <!-- FULL-STACK -->
+
+        <div class="project-category">
+
+            <h3 class="category-title">
+
+                <span class="category-icon">
+                    <i data-lucide="server"></i>
+                </span>
+
+                Full-stack
+
+            </h3>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <div class="project-icon">
+                            <i data-lucide="shopping-bag"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Full-stack
+                        </span>
+
+                        <h3>
+                            Loja Lego
+                        </h3>
+
+                        <p>
+                            Aplicação desenvolvida envolvendo
+                            front-end, back-end e integração
+                            com banco de dados.
+                        </p>
+
+
+                        <div class="tags">
+
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <a
+                                href="https://livlivm.github.io/legoMajestic/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                Ver projeto
+                                <i data-lucide="external-link"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+
+        <!-- MOBILE -->
+
+        <div class="project-category">
+
+            <h3 class="category-title">
+
+                <span class="category-icon">
+                    <i data-lucide="smartphone"></i>
+                </span>
+
+                Mobile
+
+            </h3>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <div class="project-icon">
+                            <i data-lucide="notebook-tabs"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Mobile
+                        </span>
+
+                        <h3>
+                            Bloco de Notas
+                        </h3>
+
+                        <p>
+                            Aplicativo mobile desenvolvido em Flutter,
+                            com autenticação, consumo de API e
+                            gerenciamento de anotações.
+                        </p>
+
+
+                        <div class="tags">
+
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">API</span>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <a
+                                href="https://github.com/Livlivm/bloco_notas"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                Ver projeto
+                                <i data-lucide="github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROCESSO -->
+
+    <section id="processo">
+
+        <div class="section-title">
+
+            <h2>Como desenvolvo</h2>
+
+            <p>
+                Um pouco do processo que sigo para transformar
+                uma ideia em um projeto.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <article>
+
+                <div class="process-number">
+                    01
+                </div>
+
+                <h3>
+                    Planejamento
+                </h3>
+
+                <p>
+                    Primeiro organizo a ideia, defino as funcionalidades
+                    necessárias e penso na estrutura do projeto.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <div class="process-number">
+                    02
+                </div>
+
+                <h3>
+                    Desenvolvimento
+                </h3>
+
+                <p>
+                    Depois começo a desenvolver as telas, funcionalidades,
+                    APIs e demais partes necessárias para a aplicação.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <div class="process-number">
+                    03
+                </div>
+
+                <h3>
+                    Testes e melhorias
+                </h3>
+
+                <p>
+                    Por fim, testo o projeto, identifico problemas e
+                    faço melhorias para deixar a aplicação mais organizada
+                    e funcional.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+
+    <section id="contato" class="contact">
+
+        <div class="contact-box">
+
+            <h2>
+                Vamos conversar?
+            </h2>
+
+            <p>
+                Estou sempre aberta a aprender, desenvolver novos projetos
+                e conhecer novas oportunidades na área de tecnologia.
+            </p>
+
+
+            <div class="contact-links">
+
+                <a href="mailto:liviaampereira@gmail.com">
+
+                    <i data-lucide="mail"></i>
+
+                    E-mail
+
+                </a>
+
+
+                <a
+                    href="https://github.com/Livlivm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <i data-lucide="github"></i>
+
+                    GitHub
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Livia Morais.
+        Desenvolvido com <span>♥</span> e código.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+```
 
 </body>
 
